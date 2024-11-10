@@ -5,22 +5,22 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "26162072")
+    API_HASH  = os.environ.get("API_HASH", "ba25181c01b50d945748801b6c8b6ecc")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8058302678:AAEHqwMysbtSJAPeS4jPrGWfQ_EWKbcwDGQ") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Star")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://rebelbotz22:vNcEEoNvSQ33d44K@cluster0.oj1hu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    START_PIC   = os.environ.get("START_PIC","https://envs.sh/_Hm.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6188679171').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002215819339") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002451313710"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
@@ -39,17 +39,17 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @Madflix_Bots"""
+<b>Bot Is Made By :</b> @Filmone_Backup"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/Madflix_Bots>Madflix Botz</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/MadflixOfficials>Jishu Developer</a>
+├<b>🖥️ Developer</b> : <a href=https://t.me/Filmone_Backup>Filmone Botz</a> 
+├<b>👨‍💻 Programer</b> : <a href=https://t.me/Filmone_Backup>Jishu Developer</a>
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://instagram.com/jishu.editz>Rename v4.5.0</a></b>     
+├<b>📊 Build Version</b> : <a href=@Filmone_Backup>Rename v4.5.0</a></b>     
 ╰───────────────⍟
 """
 
@@ -75,7 +75,7 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/MadflixOfficials>Developer</a>
+𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Filmone_Backup>Developer</a>
 """
 
     PROGRESS_BAR = """\n
@@ -90,7 +90,6 @@ class Txt(object):
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> `madflixofficial@axl`
 """
 
 
@@ -98,9 +97,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @Madflix_Bots</code>
+<code>By :- @Filmone_Backup</code>
 
-💬 For Any Help Contact @MadflixOfficials
+💬 For Any Help Contact @RebelStar2
 """
 
 
