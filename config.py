@@ -44,12 +44,12 @@ class Txt(object):
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/Filmone_Backup>Filmone Botz</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/Filmone_Backup>Jishu Developer</a>
+├<b>🖥️ Developer</b> : <a href=https://t.me/Rebel_Backup>Rebel Botz</a> 
+├<b>👨‍💻 Programer</b> : <a href=https://t.me/Rebel_Request>Ankita Developer</a>
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=@Filmone_Backup>Rename v4.5.0</a></b>     
+├<b>📊 Build Version</b> : <a href=@Ankita_Rename_Bot>Rename v4.5.0</a></b>     
 ╰───────────────⍟
 """
 
