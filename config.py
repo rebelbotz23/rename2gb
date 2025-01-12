@@ -39,7 +39,7 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @Filmone_Backup"""
+<b>Bot Is Made By :</b> @Rebel_Backup"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
@@ -75,7 +75,7 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Filmone_Backup>Developer</a>
+𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Rebel_Request>Developer</a>
 """
 
     PROGRESS_BAR = """\n
@@ -97,7 +97,7 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @Filmone_Backup</code>
+<code>By :- @Rebel_Backup</code>
 
 💬 For Any Help Contact @RebelStar2
 """
