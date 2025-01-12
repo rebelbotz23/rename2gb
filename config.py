@@ -19,8 +19,8 @@ class Config(object):
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6188679171').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002215819339") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002451313710"))
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002396993826") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002350868212"))
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
